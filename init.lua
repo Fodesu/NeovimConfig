@@ -4,7 +4,7 @@ require('init-mason')
 require('nvim-tree').setup()
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = { "sumneko_lua", "rust_analyzer", "clangd" }
+    ensure_installed = { "rust_analyzer", "clangd" }
 })
 
 -- Lua:
